@@ -12,6 +12,6 @@ find_package(GStreamer REQUIRED)
 
 install(DIRECTORY cmake DESTINATION share/${PROJECT_NAME})
 
-ament_cmake(
+ament_package(
   CONFIG_EXTRAS "aravis_vendor-extras.cmake"
 )
