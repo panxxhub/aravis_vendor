@@ -1,0 +1,1 @@
+list(APPEND CMAKE_MODULE_PATH "${aravis_vendor_DIR}/cmake/modules")
